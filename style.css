@@ -1,0 +1,114 @@
+body{
+    overflow-x: hidden;
+}
+.bgimg{
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    filter: brightness(0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.bigHeading{
+    color: white;
+    font-family: Libre Baskerville;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+.bigHeading .smHead{
+    margin-bottom: 30px;
+}
+.bigHeading .pHead{
+    line-height: 30px;
+    color: whitesmoke;
+    margin-top: 20px;
+    text-align: justify;
+    word-wrap: break-word;
+    width: 590px;
+    
+}
+.bigHeading .bgHead{
+    font-size: 40px;
+}
+.btn{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+  }
+.feature-title {
+    font-size: 1.5rem;
+  }
+.feature-box {
+    padding: 7%;
+    text-align: center;
+  }
+
+.white-section {
+    margin-top: 240px;
+    background-color: #fff;
+  }
+.icon{
+    color: rgb(143, 34, 34);
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.icon:hover {
+        color: #ca122e;
+ }
+ .sWine{
+    text-align: center;
+    position: relative;
+    top: 35px;
+ }
+.reviewCards{
+    padding: 5%;
+ }
+.menu{
+    position: relative;
+    bottom: 60%;
+    left: 35%;
+    color: white;
+    z-index: 1;
+}
+.bigTxt{
+    position: absolute;
+    padding: 30px;
+    font-size: 60px;
+    font-family: Cinzel, serif;
+    word-spacing: 15px;
+    bottom: -350%;
+    left: 25%;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    word-wrap: break-word;
+    width: 800px;
+}
+.txtHis{
+    position: absolute;
+    font-family: sans-serif;
+    word-spacing: 3px;
+    line-height: 30px;
+    bottom: -375%;
+    left: 18%;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    word-wrap: break-word;
+    width: 1000px;
+}
+.btnn{
+    position: absolute;
+    bottom: -385%;
+    margin: 40px 0 0 400px;
+    width: 15%;
+}
+
+

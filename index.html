@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Garisson Bar and Restaurant</title>
+  <!-- CSS LINKS -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <!-- JS LINKS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+  <!-- FONT LINKS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Libre+Baskerville:wght@700&display=swap"
+    rel="stylesheet">
+
+  <!-- FONT AWSM LINK -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+
+
+  <!-- BACKGROUND IMAGE -->
+  <img class="bgimg" src="https://images5.alphacoders.com/109/1096682.jpg" alt="bgImg">
+
+
+  <!-- Nav Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <!--<img src="logo.jgp" alt="" width="30" height="24">-->Garisson Tavern</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Grills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Vine</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              More
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Gallary</a></li>
+              <li><a class="dropdown-item" href="#">Menu</a></li>
+              <li><a class="dropdown-item" href="#">Reviews</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Title -->
+  <div class="bigHeading">
+    <h4 class="smHead">Est. 1845</h4>
+    <h1 class="">WELCOME TO GARISSON</h1>
+    <p class="pHead">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
+      standard dummy text ever since the 1500s.
+    </p>
+  </div>
+
+  <button type="button" class="btn btn-outline-light btn-lg download-button">BOOK A TABLE</button>
+  <button type="button" class="btn btn-outline-light btn-lg download-button">ORDER FOOD</button>
+
+
+
+  <!-- Features -->
+
+  <section class="white-section" id="features">
+
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-check-circle fa-4x"></i>
+          <h3 class="feature-title">Easy to use</h3>
+          <p>Order in for yourself or for the group, with no restrictions on order value</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-bullseye fa-4x"></i>
+          <h3 class="feature-title">Fastest Delivery</h3>
+          <p>Experience Garisson's superfast delivery for food delivered fresh & on time</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fas fa-heart fa-4x"></i>
+          <h3 class="feature-title">Variety of Dishes</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod</p>
+        </div>
+
+        <div class="feature-box col-lg-3">
+          <i class="icon fa-solid fa-map-pin fa-4x"></i>
+          <h3 class="feature-title">Live Order Tracking</h3>
+          <p>Know where your order is at all times, from the restaurant to your doorstep</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carousel Section -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://static.tildacdn.com/tild3737-3563-4238-a665-346136323463/kak-prigotovit-sashl.jpg"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Our Best Grills</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+
+      </div>
+      <div class="carousel-item">
+        <img src="https://clubrunner.blob.core.windows.net/00000010800/PhotoAlbum/wine-gala-banners/banner_wine.jpg"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Our Finest Wines</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.ri-jo.nl/img/slides/bedrijfsfeesten.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Exclusive Party</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Reviews Section -->
+  <h1 class="sWine">DISCOVER SPECIAL WINES</h1>
+  <section class="container-fluid reviewCards">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="https://fineowine.co.nz/wp-content/uploads/2023/04/Te-Muna-The-Falcon-Pinot-Noir-1.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://fineowine.co.nz/wp-content/uploads/2023/03/Pathway-Merlot-2020_large-2-1.jpg"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="https://fineowine.co.nz/wp-content/uploads/2023/06/100th-Anniversary-Limited-Edition.png"
+            class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional
+              content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bar & veg / non-veg Section -->
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-md-6" style="padding-left: 0;">
+        <img style="filter: brightness(0.5);" src="https://lifespeaker.ru/wp-content/uploads/2021/04/29-2.jpg" alt="">
+        <h1 class="menu">BAR MENU</h1>
+      </div>
+
+      <div class="col-md-6">
+        <img style="filter: brightness(0.5);"
+          src="https://www.cooksdelight.com/wp-content/uploads/2019/11/Grilled-marinated-vegetables-using-Cooks-Delight-Roasted-Garlic-Concentrate-900x600.png"
+          alt="">
+        <h1 class="menu">FOOD MENU</h1>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid">
+    <div class="row">
+      <div class="col-md-12" style="padding-left: 0;">
+        <img style="filter: brightness(0.7);"
+          src="https://png.pngtree.com/back_origin_pic/03/53/21/cb8a5d756524f157aabf7259c7f56c60.jpg" alt="">
+        <h1 class="bigTxt">175 Years Of Service</h1>
+        <p class="txtHis">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+          been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+          and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+          electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum.</p>
+        <button type="button" class="txtHis btnn btn-outline-dark btn-md download-button">MORE ABOUT US</button>
+      </div>
+    </div>
+
+</body>
+
+</html>
